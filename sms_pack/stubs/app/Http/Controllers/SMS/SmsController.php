@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use Twilio\Exceptions\TwilioException;
 use Twilio\Rest\Client;
 
-class SMSController extends Controller
+class SmsController extends Controller
 {
     public function SMSindex()
     {
