@@ -8,7 +8,7 @@ use Twilio\Rest\Client;
 
 class SmsController extends Controller
 {
-    public function SMSindex()
+    public function index()
     {
         return view('sms-index');
     }
