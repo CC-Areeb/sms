@@ -3,7 +3,7 @@
 **Composer command** 
 
 ```
-composer require areeb/sms-boiler-plate
+composer require cooperativecomputing/sms-boiler-plate
 ```
 
 
