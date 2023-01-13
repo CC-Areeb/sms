@@ -51,7 +51,7 @@ class SmsController extends Controller
 
     public function sendSMS()
     {
-        $otp = $this->generateOTP();
+        $otp = $this->generateOTP(5);
 
         $request = (object) [
             'sms_message' => 'Text message with OTP: '. $otp,
@@ -77,9 +77,9 @@ class SmsController extends Controller
         }
     }
 
-    public function generateOTP()
+    public function generateOTP($otpDigits)
     {
-        return random_int(0,99999);
+        return rand(pow(10, $otpDigits-1), pow(10, $otpDigits)-1);
     }
 }
 ```
