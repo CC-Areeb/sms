@@ -36,7 +36,7 @@ To run this project, you will need to add the following environment variables to
 
 #
 
-### After setting the environment variables, you can start your local development server and start sending mail by just clicking on the send button.
+### After setting the environment variables, you can start your local development server and start sending sms by just clicking on the send button.
 
 ## Code snippets
 
