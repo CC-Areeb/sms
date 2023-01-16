@@ -1,4 +1,4 @@
-# Emailing template
+# SMS template
 
 **Composer command** 
 
